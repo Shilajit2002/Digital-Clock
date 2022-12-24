@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="clock.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Clock Box -->
+      <div class="box">
+        <!-- AM-PM -->
+        <div id="time">`~`</div>
+        <!-- Timer -->
+        <div class="timer">
+          <!-- Hour -->
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div id="circleHour"></div>
+              <div id="h">00</div>
+              <h4>Hour</h4>
+            </div>
+          </div>
+          <!-- Minute -->
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div id="circleMinute"></div>
+              <div id="m">00</div>
+              <h4>Minute</h4>
+            </div>
+          </div>
+          <!-- Seconds -->
+          <div class="outer-circle">
+            <div class="inner-circle">
+              <div id="circleSecond"></div>
+              <div id="s">00</div>
+              <h4>Second</h4>
+            </div>
+          </div>
+        </div>
+        <!-- Date -->
+        <div class="dates">
+          <!-- Dates Box-->
+          <div class="days">
+            <!-- Day -->
+            <div id="day">****</div>
+            <!-- Months Box -->
+            <div class="months">
+              <!-- Month -->
+              <div id="month">****</div>
+              ,
+              <!-- Year -->
+              <div id="year">****</div>
+            </div>
+          </div>
+          <!-- Full Date -->
+          <div class="full-date">
+            <div id="full">00 - 00 - 0000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="clock.js"></script>
+</html>
