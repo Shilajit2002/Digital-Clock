@@ -44,7 +44,7 @@ const Clock = () => {
 
     document.getElementById("time").innerHTML = am_pm;
 
-    document.getElementById("full").innerHTML = a.getDate() + " - " + a.getMonth() + " - " + a.getFullYear();
+    document.getElementById("full").innerHTML = a.getDate() + " - " + (a.getMonth()+1) + " - " + a.getFullYear();
 
     let hrotation = 30 * hour + min / 2;
     let mrotation = 6 * min;
